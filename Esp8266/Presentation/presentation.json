@@ -1,0 +1,33 @@
+{
+     "length": 5,
+     "act1": {
+         "moviment": "Frente",
+         "speed": [500, 500],
+         "time": 1 
+     },
+     "act2": {
+         "moviment": "Piscar",
+         "leds": "10101010",
+         "repeat": 2,
+         "time": 3
+     },
+     "act3": {
+         "moviment": "Piscar",
+         "leds": "*",
+         "time": 2
+     },
+     "act4": {
+         "moviments": ["Frente", "Piscar", "Tras"],
+         "details": [
+             {"speed": [500, 500], "time": 1},
+             {"leds": "01010101", "repeat": 2, "time": 1},
+             {"speed": [500, 500], "time": 1}
+         ],
+         "repeat": 2
+     },
+     "act5": {
+         "moviment": "Led On",
+         "leds": "*",
+         "time": 0
+     }
+}
